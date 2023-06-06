@@ -112,4 +112,12 @@ h2 h3 {
     display: none;
 }
 
+@keyframes myAnim {
+	0% {
+		transform: translateX(0);
+	}
 
+	100% {
+		transform: translateX(139px);
+	}
+}
