@@ -1,0 +1,115 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    width: 139px; 
+    height: 500px; 
+    background-color: #fff;
+}
+
+.description h2 {
+    background-color: blue;
+}
+
+h2 h3 {
+    font-family: Limelight, sans-serif;
+}
+
+.bouton{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(52, 52, 52);
+    border: solid blue 2px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.TheRock {
+    width: 139px; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: 0% 0;
+}
+
+.VinD {
+    width: 139px; 
+    height: 500px;  
+    object-fit: cover; 
+    object-position: 25% 0;
+}
+
+.LaPute {
+    width: 139px; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+
+.Jessica {
+    width: 139px; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: 75% 0;
+}
+
+.Zita {
+    width: 139px; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: 100% 0;
+}
+
+#RockDesc {
+    display: none;
+}
+
+#VinDesc {
+    display: none;
+}
+
+#PuteDesc {
+    display: none;
+}
+
+#JessDesc {
+    display: none;
+}
+
+#ZitaDesc {
+    display: none;
+}
+
+
